@@ -5,4 +5,20 @@
   --color-bg:#111111;
 }
 
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  position: relative;
+  background-color: var(--color-bg);
+  color: hsla(180, 7%,75%,0.9);
+  overflow-x: hidden;
+
+}
+
 
