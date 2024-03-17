@@ -5,6 +5,7 @@ import Image from 'next/image';
 import logo from "../../../public/logo.png";
 import styled from "styled-components";
 import Button from '../button/Button';
+import {FaRocket,FaWallet} from "react-icons/fa"
 
 function Header() {
   return (
@@ -34,7 +35,7 @@ function Header() {
             
         </li>
         <li>
-            <Button/>
+            <Button name='Connect Wallet' icon={<FaWallet/>}/>
             
         </li>
        </ul>
